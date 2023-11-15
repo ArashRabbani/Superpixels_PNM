@@ -47,12 +47,9 @@ spnm.netview(NW,'Pore size'); title('Pore Network structure'); saveas(gcf, 'Pore
 spnm.netview(NW,'Pore pressure',0,NW.Pres(1).Pore); title('Pore pressure'); saveas(gcf, 'Pore pressure.png');
 end
 ```
-
+And as a result the code will visulize and save cross-section of the 1) original geometry, 2) pore network structure color labeled for different pore sizes and 3) Pore pressure distribution in steady state incompressible flow in X direction. 
 ![Original geometry](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Original%20geometry.png)
-Original geometry
 
 ![Pore Network structure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore%20Network%20structure.png)
-Pore Network structure
 
 ![Pore pressure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore%20pressure.png)
-Pore pressure distribution in steady state incompressible flow in X direction
