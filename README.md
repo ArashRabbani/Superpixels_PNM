@@ -53,3 +53,30 @@ And as a result the code will visulize and save cross-section of the 1) original
 ![Pore Network structure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore%20Network%20structure.png)
 
 ![Pore pressure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore%20pressure.png)
+
+##Demo 2
+This demo shows how to use a sequence of images as input to form the 3D structure as a matlab binary variable and run the pore network extraction. 
+
+```matlab
+% Demo 2
+clear; close all; 
+% Setting spatial resolution which simply says how large is one pixel in 
+% the image
+Res=5; %micron/pixel
+
+% Reading data from image sequence
+% unzipping the folder
+unzip('Image Seq.zip');
+% reading the image sequence
+A=spnm.seq2mat('Image Seq/*.png');
+% binarizing the image
+A=imbinarize(A); 
+
+% And then doing the rest of your analysis such as 
+% Extracting the pore network via superpixels method
+[NW,NM]=spnm.netext2(A,Res,'super');
+
+% Printing results
+disp(['Porosity: ' num2str(NW.Poro) ])
+disp(['Average pore size: ' num2str(mean(NW.R)) ' Micron'])
+```
