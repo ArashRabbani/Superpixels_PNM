@@ -49,5 +49,10 @@ end
 ```
 
 ![Original geometry](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Original%20geometry.png)
+Original geometry
+
 ![Pore Network structure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore%20Network%20structure.png)
+Pore Network structure
+
 ![Pore pressure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore%20pressure.png)
+Pore pressure distribution in steady state incompressible flow in X direction
