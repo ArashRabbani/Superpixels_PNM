@@ -45,6 +45,5 @@ spnm.section(A); title('Original geometry'); saveas(gcf, 'Original geometry.png'
 if numel(NW.R)<4000
 spnm.netview(NW,'Pore size'); title('Pore Network structure'); saveas(gcf, 'Pore Network structure.png');
 spnm.netview(NW,'Pore pressure',0,NW.Pres(1).Pore); title('Pore pressure'); saveas(gcf, 'Pore pressure.png');
-
 end
 ```
