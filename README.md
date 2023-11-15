@@ -80,7 +80,7 @@ A=imbinarize(A);
 disp(['Porosity: ' num2str(NW.Poro) ])
 disp(['Average pore size: ' num2str(mean(NW.R)) ' Micron'])
 ```
-Note: An example image sequence is provided that is being unzipped in the code. If you have yours ready, just ignor the 'unzip' line. 
+Note: An example image sequence is provided that is being unzipped in the code. If you have yours ready, just remove the 'unzip' line. 
 
 ## Demo 3
 In this code, 
