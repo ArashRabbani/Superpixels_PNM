@@ -1,0 +1,18 @@
+Parameter,Value
+Porosity (Fraction),0.22
+Total number of pores,729
+Total number of throats,1414
+Average pore radius (micron),17.521
+Average throat radius (micron),10.61
+Standard deviation of pore radius (micron),8.507
+Standard deviation of throat radius (micron),5.942
+Average throat length (micron),61.441
+Standard deviation of throat length (micron),15.439
+Average pore to throat aspect ratio,2.892
+Average pore connectivity,3.879
+X permeability (D),0.373481455667829
+Y permeability (D),0.420820282540583
+Z permeability (D),0.486197419099129
+X formation factor,17.511027105249
+X formation factor ,14.560234407798
+X formation factor ,13.22259115238
