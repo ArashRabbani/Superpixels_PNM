@@ -6,7 +6,7 @@ Res=5; %micron/pixel
 
 % Reading data from image sequence
 % unzipping the folder
-unzip('Image Seq.zip');
+try; unzip('Image Seq.zip'); catch; end
 % reading the image sequence
 A=spnm.seq2mat('Image Seq/*.png');
 % binarizing the image
