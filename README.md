@@ -47,6 +47,6 @@ spnm.netview(NW,'Pore size'); title('Pore Network structure'); saveas(gcf, 'Pore
 spnm.netview(NW,'Pore pressure',0,NW.Pres(1).Pore); title('Pore pressure'); saveas(gcf, 'Pore pressure.png');
 end
 ```
-![Original geometry](Original geometry.png)
-![Pore Network structure](Pore Network structure.png)
-![Pore pressure](Pore pressure.png)
+![Original geometry](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Original geometry.png)
+![Pore Network structure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore Network structure.png)
+![Pore pressure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore pressure.png)
