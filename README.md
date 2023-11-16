@@ -141,5 +141,5 @@ And the result will like this:
 
 ## Citation
 If you are using this work in your research please cite:  
-<\br>
+</br>
 Arash Rabbani, Superpixels pore network extraction for geological tomography images, Journal of Advances in Water Resources (2023). 
