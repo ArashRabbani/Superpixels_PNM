@@ -1,6 +1,8 @@
 # Superpixels_PNM
 Superpixels pore network extraction for geological tomography images
 
+In this work, a new method of extraction of pore networks from tomography images of geological porous material has been introduced. Superpixels, a classic method of image segmentation, has been employed as a part of the proposed algorithm to analyze 3D micro-structures and construct a pore network model that is representative of the hydraulic and electrical behavior of the studied porous mediums. In addition, an effective throat radius is introduced to compensate for over-segmentation issues in pore network extraction. In the corresponded paper, pore network models obtained from superpixels were extensively compared with those from watershed segmentation in terms of network statistics, morphology, permeability, and formation factor. It is found that despite differences in network morphology due to over-segmentation, macroscopic properties of the samples can be still modeled with the same level of accuracy as watershed networks. Superpixels proved to be exponentially faster but linearly more memory intensive than the watershed, which makes the superpixels a significant option to analyze large-size tomography images due to better scalability.
+
 ## Demo 1
 ```matlab
 % Demo 1
