@@ -59,6 +59,12 @@ And as a result the code will visulize and save cross-section of the 1) original
 
 ![Pore pressure](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Pore%20pressure.png)
 
+The network metrics are exported as text format in two files of "Network_Pores.txt" and "Network_Throats.txt" like this:
+![Text network](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/ExportedText.PNG)
+
+An then finally, all the information including network metrics, structure, fluid flow rate and pressure distribution are exported into a vtk file that can be read in Paraview for all sorts of visulizations. 
+
+
 ## Demo 2
 This demo shows how to use a sequence of images as input to form the 3D structure as a matlab binary variable and run the pore network extraction. 
 
