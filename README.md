@@ -138,3 +138,7 @@ saveas(gcf, 'Sensitivity analysis.png');
 ```
 And the result will like this: 
 ![Porosity Permeability Formation Factor](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Sensitivity%20analysis.png)
+
+## Citation
+If you are using this work in your research please cite: 
+Arash Rabbani, Superpixels pore network extraction for geological tomography images, Journal of Advances in Water Resources (2023). 
