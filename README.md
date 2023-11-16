@@ -62,7 +62,8 @@ And as a result the code will visulize and save cross-section of the 1) original
 The network metrics are exported as text format in two files of "Network_Pores.txt" and "Network_Throats.txt" like this:
 ![Text network](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/ExportedText.PNG)
 
-An then finally, all the information including network metrics, structure, fluid flow rate and pressure distribution are exported into a vtk file that can be read in Paraview for all sorts of visulizations. 
+An then finally, all the information including network metrics, structure, fluid flow rate and pressure distribution are exported into a vtk file that can be read in Paraview for all sorts of visulizations. Check the example below:
+![Text network](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/paraview.PNG)
 
 
 ## Demo 2
