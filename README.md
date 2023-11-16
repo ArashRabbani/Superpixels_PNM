@@ -9,8 +9,8 @@ clear; close all;
 % the image
 Res=5; %micron/pixel
 
-% Making a random gaussain geometry to play with, 0 is void sapce and 1 is 
-% solid space
+% Making a random Gaussain geometry to play with, 0 is void sapce and 1 is 
+% solid space, here we set an arbitrary porosity of 22%
 A=imgaussfilt3(rand([100,100,100]),2); A=A>quantile(A,.22);
 
 % Extracting the pore network via superpixels method
@@ -83,7 +83,7 @@ disp(['Average pore size: ' num2str(mean(NW.R)) ' Micron'])
 Note: An example image sequence is provided that is being unzipped in the code. If you have yours ready, just remove the 'unzip' line. 
 
 ## Demo 3
-In this code, 
+In this code, we run a snesitivity analysis on the relationship between porosity, absolute permability and formation factor of some Gaussian porous structures. 
 ```matlab
 % Demo 3
 clear; close all; 
@@ -96,7 +96,7 @@ PoroList=[0.1,0.15,0.2,0.25,0.3,0.4];
 Permeability=[];FormationFactor=[];
 for Poro=PoroList
 
-% Making a random gaussain geometry with specific porosity
+% Making a random Gaussain geometry with specific porosity
 A=imgaussfilt3(rand([100,100,100]),2); A=A>quantile(A,Poro);
 
 % Extracting the pore network via superpixels method
@@ -118,3 +118,5 @@ figure; subplot(1,2,1); plot(PoroList,Permeability,'o-'); xlabel('Porosity'); yl
 subplot(1,2,2); plot(PoroList,FormationFactor,'o-'); xlabel('Porosity'); ylabel('Formation factor'); axis square; 
 saveas(gcf, 'Sensitivity analysis.png');
 ```
+And the result will like this: 
+![Porosity Permeability Formation Factor](https://github.com/ArashRabbani/Superpixels_PNM/blob/main/Sensitivity%20analysis.png)
